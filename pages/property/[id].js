@@ -38,16 +38,16 @@ const PropertyDetails = ({ PropertyDetails : {
             </Box>
             <Text lineHeight="2" color="gray.600">{description}</Text>
             <Flex flexWrap="wrap" textTransform="uppercase" justifyContent="space-between">
-               <Flex justifyContent="space-between" w="400px" borderBottom="1px" p="3" borderBottom="gray.100">
+               <Flex justifyContent="space-between" w="400px" borderBottom="1px" p="3" borderColor="gray.100">
                   <Text>Type</Text>
                   <Text fontWeight="bold">{type}</Text>
                </Flex>
-               <Flex justifyContent="space-between" w="400px" borderBottom="1px" p="3" borderBottom="gray.100">
+               <Flex justifyContent="space-between" w="400px" borderBottom="1px" p="3" borderColor="gray.100">
                   <Text>Purpose</Text>
                   <Text fontWeight="bold">{purpose}</Text>
                </Flex>
                {furnishingStatus && (
-                  <Flex justifyContent="space-between" w="400px" borderBottom="1px" p="3" borderBottom="gray.100">
+                  <Flex justifyContent="space-between" w="400px" borderBottom="1px" p="3" borderColor="gray.100">
                      <Text>Furnishing Status</Text>
                      <Text fontWeight="bold">{furnishingStatus}</Text>
                   </Flex>
